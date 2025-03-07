@@ -1,113 +1,125 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yubraj Chapagain - Portfolio</title>
-    <link rel="icon" type="image/jpg" href="./assets/favicon.ico" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./styles.css" />
-    <script src="//code.tidio.co/8kpx8qt5avyjlkj6qqojghkm713krc7d.js" async></script>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="logo">
-          <i class="fa-solid fa-bank"></i>
-          <span>Yubraj Chapagain</span>
-        </div>
-        <ul id="menuList">
-          <li><a href="/">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="menu-icon">
-          <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <section class="hero container">
-        <div>
-          <h1>Hi, I'm Yubraj Chapagain</h1>
-          <p>
-            A CA Finalist from Nepal passionate about continuous learning and staying updated with evolving financial regulations and standards and helping clients or their organization succeed.
-          </p>
-          <div class="call-to-action">
-            <a href="Sample_Resume.pdf" class="button black" style="margin-top: 30px;">View Resume</a>
-            <a href="#contact" class="button white">Contact Me</a>
-            <a href="https://medium.com/@chapagainsantosh9876">MY BLOGS</a>
+<!-- <!DOCTYPE html> -->
+<!-- <html lang="en"> -->
+  <!-- <head> -->
+    <!-- <meta charset="UTF-8" /> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <!-- <title>Yubraj Chapagain - Portfolio</title> -->
+    
+    <!-- <link rel="icon" type="image/jpg" href="./assets/favicon.ico" /> -->
 
-          </div>
-        </div>
-        <img src="hero-image.png" alt="hero" width="100%" />
-      </section>
-      <section id="about" class="about container">
-        <h2>About Me</h2>
-        <p>
-          At just 22 years old, I am on an exciting journey as a Chartered Accountancy (CA) student, where I am not only honing my skills in financial management but also discovering the profound impact that numbers can have in the business world. My passion for accounting sparked during my high school years, when I first realized how much I enjoyed unraveling complex financial puzzles and helping family and friends make sense of their personal budgets. This fascination led me to pursue a career in accountancy, a field that perfectly marries my analytical mindset with my desire to contribute to the success of individuals and businesses alike.
+    <!-- <link -->
+      <!-- href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap" -->
+      <!-- rel="stylesheet" -->
+    <!-- /> -->
 
-Being a CA student is no small feat; it requires dedication, resilience, and an insatiable thirst for knowledge. Every day brings new challenges and opportunities for growth, whether I’m poring over tax regulations, dissecting balance sheets, or studying the latest auditing standards. I thrive on the intellectual rigor of my studies and am constantly inspired by the prospect of playing a key role in shaping financial futures. As I navigate this demanding yet rewarding path, I embrace the principles of integrity and professionalism that the CA designation embodies. 
+    <!-- <link -->
+      <!-- rel="stylesheet" -->
+      <!-- href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" -->
+      <!-- integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" -->
+      <!-- crossorigin="anonymous" -->
+      <!-- referrerpolicy="no-referrer" -->
+    <!-- /> -->
 
-Beyond my academic pursuits, I am an advocate for lifelong learning and personal development. I actively seek out internships and networking opportunities that allow me to apply my theoretical knowledge in real-world settings, gaining invaluable experience while building connections within the industry. In my spare time, I love to immerse myself in finance-related literature and keep up with emerging trends, always looking for ways to innovate and improve my understanding. My goal is not just to become a Chartered Accountant but to be a trusted advisor who empowers clients to achieve their financial aspirations. With each passing day, I am one step closer to realizing this dream, ready to make my mark in the world of finance.
-        </p>
-      </section>
-      <section id="skills" class="skills container">
-        <h2>Skills</h2>
-        <ul>
-          <li>Ethics and Professional Conduct</li>
-          <li>Auditing and Assurance</li>
-          <li>Accounting Standards and Financial Reporting:</li>
-          <li>Taxation Laws and Regulations</li>
-        </ul>
-      </section>
-      <section id="projects" class="projects container">
-        <h2>Projects</h2>
-        <div class="projects-grid">
-          <a href="#" class="projects-item"><img src="financial-reporting.png" alt="Project 1" /></a>
-          <a href="#" class="projects-item"><img src="financial-reporting2.png" alt="Project 2" /></a>
-        </div>
-      </section>
-      <section id="contact" class="contact container">
-        <h2>Contact Me</h2>
-        <form id="contact-form">
-          <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required />
-          </div>
-          <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
-          </div>
-          <div>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-          </div>
-          <button type="submit">Send Message</button>
-        </form>
-      </section>
-    </main>
-    <footer id="footer" class="footer container">
-      <p>© 2025 Yubraj Chapagain - All Rights Reserved</p>
-      <div class="social-links">
-        <a href="https://www.youtube.com/@Yubrajcpg-04"><i class="fab fa-square-youtube"></i></a>
-        <a href="https://np.linkedin.com/in/yubraj-chapagain-558473344?trk=people-guest_people_search-card"><i class="fab fa-linkedin"></i></a>
-        <a href="https://www.facebook.com/Yubraj.chapagain.9876"><i class="fab fa-facebook-f"></i></a>
-      </div>
-      <h1>Powered by CNR Krishna Khanal.Visit itsmecnr.netlify.app.<a href='itsmecnr.netlify.app'>Click Here!</a></h1>
-    </footer>
-    <script src="./scripts.js"></script>
-  </body>
-</html>
+    <!-- <link rel="stylesheet" href="./styles.css" /> -->
+
+    <!-- <script src="//code.tidio.co/8kpx8qt5avyjlkj6qqojghkm713krc7d.js" async></script> -->
+  <!-- </head> -->
+  <!-- <body> -->
+    <!-- <header> -->
+      <!-- <nav> -->
+        <!-- <div class="logo"> -->
+          <!-- <i class="fa-solid fa-bank"></i> -->
+          <!-- <span>Yubraj Chapagain</span> -->
+        <!-- </div> -->
+        
+        <!-- <ul id="menuList"> -->
+          <!-- <li><a href="/">Home</a></li> -->
+          <!-- <li><a href="#about">About</a></li> -->
+          <!-- <li><a href="#skills">Skills</a></li> -->
+          <!-- <li><a href="#projects">Projects</a></li> -->
+          <!-- <li><a href="#contact">Contact</a></li> -->
+        <!-- </ul> -->
+
+        <!-- <div class="menu-icon"> -->
+          <!-- <i class="fa-solid fa-bars" onclick="toggleMenu()"></i> -->
+        <!-- </div> -->
+      <!-- </nav> -->
+    <!-- </header> -->
+
+    <!-- <main> -->
+      <!-- <section class="hero container"> -->
+        <!-- <div> -->
+          <!-- <h1>Hi, I'm Yubraj Chapagain</h1> -->
+          <!-- <p> -->
+            <!-- A CA Finalist from Nepal passionate about continuous learning and staying updated with evolving financial regulations and standards and helping clients or their organization succeed. -->
+          <!-- </p> -->
+
+          <!-- <div class="call-to-action"> -->
+            <!-- <a href="Sample_Resume.pdf" class="button black" style="margin-top: 30px;">View Resume</a> -->
+            <!-- <a href="#contact" class="button white">Contact Me</a> -->
+            <!-- <a href="https://medium.com/@chapagainsantosh9876">MY BLOGS</a> -->
+          <!-- </div> -->
+        <!-- </div> -->
+        <!-- <img src="hero-image.png" alt="hero" width="100%" /> -->
+      <!-- </section> -->
+
+      <!-- <section id="about" class="about container"> -->
+        <!-- <h2>About Me</h2> -->
+        <!-- <p> -->
+          <!-- About content goes here -->
+        <!-- </p> -->
+      <!-- </section> -->
+
+      <!-- <section id="skills" class="skills container"> -->
+        <!-- <h2>Skills</h2> -->
+        <!-- <ul> -->
+          <!-- <li>Ethics and Professional Conduct</li> -->
+          <!-- <li>Auditing and Assurance</li> -->
+          <!-- <li>Accounting Standards and Financial Reporting</li> -->
+          <!-- <li>Taxation Laws and Regulations</li> -->
+        <!-- </ul> -->
+      <!-- </section> -->
+
+      <!-- <section id="projects" class="projects container"> -->
+        <!-- <h2>Projects</h2> -->
+        <!-- <div class="projects-grid"> -->
+          <!-- <a href="#" class="projects-item"><img src="financial-reporting.png" alt="Project 1" /></a> -->
+          <!-- <a href="#" class="projects-item"><img src="financial-reporting2.png" alt="Project 2" /></a> -->
+        <!-- </div> -->
+      <!-- </section> -->
+
+      <!-- <section id="contact" class="contact container"> -->
+        <!-- <h2>Contact Me</h2> -->
+        <!-- <form id="contact-form"> -->
+          <!-- <div> -->
+            <!-- <label for="name">Name:</label> -->
+            <!-- <input type="text" id="name" name="name" required /> -->
+          <!-- </div> -->
+          <!-- <div> -->
+            <!-- <label for="email">Email:</label> -->
+            <!-- <input type="email" id="email" name="email" required /> -->
+          <!-- </div> -->
+          <!-- <div> -->
+            <!-- <label for="message">Message:</label> -->
+            <!-- <textarea id="message" name="message" rows="4" required></textarea> -->
+          <!-- </div> -->
+          <!-- <button type="submit">Send Message</button> -->
+        <!-- </form> -->
+      <!-- </section> -->
+    <!-- </main> -->
+
+    <!-- <footer id="footer" class="footer container"> -->
+      <!-- <p>© 2025 Yubraj Chapagain - All Rights Reserved</p> -->
+
+      <!-- <div class="social-links"> -->
+        <!-- <a href="https://www.youtube.com/@Yubrajcpg-04"><i class="fab fa-square-youtube"></i></a> -->
+        <!-- <a href="https://np.linkedin.com/in/yubraj-chapagain-558473344?trk=people-guest_people_search-card"><i class="fab fa-linkedin"></i></a> -->
+        <!-- <a href="https://www.facebook.com/Yubraj.chapagain.9876"><i class="fab fa-facebook-f"></i></a> -->
+      <!-- </div> -->
+
+      <!-- <h1>Powered by CNR Krishna Khanal. Visit <a href='itsmecnr.netlify.app'>itsmecnr.netlify.app</a></h1> -->
+    <!-- </footer> -->
+
+    <!-- <script src="./scripts.js"></script> -->
+  <!-- </body> -->
+<!-- </html> -->
